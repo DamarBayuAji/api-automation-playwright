@@ -20,7 +20,7 @@ test('Test Case 1', async ({ request }) => {
     if (!valid) {
         console.log("AJV Validation Errors:", ajv.errorsText())
     }
-    expect(valid).toBe(true);
+    expect(valid).toBe(true)
 });
 
 // test('Test Case 1', async ({ request }) => {
